@@ -23,7 +23,7 @@ from sklearn.metrics import (accuracy_score, cohen_kappa_score,
 warnings.filterwarnings("ignore")
 logging.disable(logging.CRITICAL)
 
-from models.model import BCGFormer
+from model import BCGFormer
 from evaluation import count_model_parameters, calculate_gflops
 
 
